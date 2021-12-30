@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kardam Tripathi | Blog</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section id="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo1.jpg" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificates & Online Programs for 2021</h1>
+    </section>
+    <!-- Blog Section -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg" alt="Certificate">
+                <h2>Our Certificates & Online Programs for 2021</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi non recusandae quam facilis, magni, sit, enim asperiores rem sunt odit nulla fugit vero libero! Asperiores tenetur voluptate magni eos! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam magnam maxime porro tenetur magni consequatur explicabo corrupti necessitatibus at atque perferendis voluptatibus placeat expedita fugiat sed, velit quae harum sapiente odio ducimus ut quo. Ipsa natus ab odit reiciendis eum officiis ut.</p>
+                <br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae eius, tempora quo a dolores possimus totam facilis deleniti quas, nulla iusto libero ipsum laboriosam, consequuntur quia tempore quod! Necessitatibus, ut illo ex iure doloribus, beatae omnis rem repellat nam voluptates aperiam veniam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum qui illo ratione officiis obcaecati aut veniam voluptatem saepe id repellendus? Fuga, delectus! Illum laboriosam ullam quos molestiae iusto aperiam.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam sunt numquam, commodi eius necessitatibus aliquam delectus! Temporibus delectus expedita facere incidunt esse quis nostrum ipsa reprehenderit fugit asperiores, in inventore! Amet at reprehenderit, iure magnam, sunt velit aut debitis illum magni numquam laboriosam, minus aperiam dolores. Ullam, quidem?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus veritatis neque culpa exercitationem omnis cupiditate, cumque porro, eveniet eos nobis nesciunt accusamus ipsum possimus magnam architecto repellat harum maxime officiis odit laboriosam eaque at error magni sint! Veniam cumque aut, omnis dolore suscipit culpa repellat delectus reprehenderit?</p>
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Your Name">
+                        <input type="email" placeholder="Enter Your Email">
+                        <textarea rows="5" placeholder="Your Comment..."></textarea>
+                        <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Comprehensive Programming</span>
+                    <span>98</span>
+                </div>
+                <div>
+                    <span>Data Analytics</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>47</span>
+                </div>
+                <div>
+                    <span>App & Web Development</span>
+                    <span>89</span>
+                </div>
+                <div>
+                    <span>Artificial Intelligence</span>
+                    <span>49</span>
+                </div>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>101</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos alias vitae voluptate adipisci
+            perspiciatis<br> eligendi ratione minima esse rem expedita, eos quam!</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-youtube"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart-o"></i> by KARDAM TRIPATHI</p>
+    </section>
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
